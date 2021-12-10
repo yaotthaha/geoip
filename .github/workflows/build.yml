@@ -38,6 +38,12 @@ jobs:
           chmod +x asn.sh
           ./asn.sh
 
+      - name: Add Personal Rules
+        run: |
+          chmod +x custom_rule.sh
+          ./custom_rule.sh
+          echo "Add Personal Rules: OK"
+
       - name: Append more CIDRs
         run: |
           curl -sSL https://www.cloudflare.com/ips-v4 | grep "/" >> data/cloudflare

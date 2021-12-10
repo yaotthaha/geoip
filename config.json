@@ -30,22 +30,6 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "gdut",
-        "uri": "https://raw.githubusercontent.com/yaotthaha/gdut-edu-rule/master/gdut-edu-rule-geoip.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "zerotier",
-        "uri": "https://green-frost-af94.amelajason.workers.dev"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "inputDir": "./data"
       }
     },
