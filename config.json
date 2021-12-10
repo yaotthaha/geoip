@@ -30,6 +30,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "gdut",
+        "uri": "https://github.com/yaotthaha/gdut-edu-rule/blob/master/gdut-edu-rule-geoip.txt",
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "inputDir": "./data"
       }
     },
