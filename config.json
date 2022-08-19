@@ -58,6 +58,14 @@
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
+        "outputName": "geoip-cn-cernet-gdut.dat",
+        "wantedList": ["gdut", "cn-cernet"]
+      }
+    },
+    {
+      "type": "v2rayGeoIPDat",
+      "action": "output",
+      "args": {
         "outputName": "geoip-asn.dat",
         "wantedList": [
           "cloudflare",
